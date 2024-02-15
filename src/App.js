@@ -18,7 +18,6 @@ export const App = () => {
 
 	return (
 		<>
-			task_complited_false
 			<h1>Список задач</h1>
 			<section className={style.app}>
 				{tasks.map((item) => (
