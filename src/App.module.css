@@ -1,0 +1,31 @@
+.app {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	max-width: 100%;
+	padding: 50px;
+	margin: 50px auto;
+}
+
+.task {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	max-width: 400px;
+	width: 100%;
+	font-size: 24px;
+	color: rgb(223, 220, 220);
+	background-color: #1b1e23;
+}
+
+.task_completed_true {
+	border: 2px solid rgb(4, 154, 91);
+}
+
+.task_completed_false {
+	border: 2px solid rgb(215, 146, 34);
+}
