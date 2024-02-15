@@ -13,7 +13,10 @@ export const App = () => {
 			.then((response) => {
 				console.log(response);
 				setTasks(response);
-			});
+			})
+			.catch((error) => {
+				console.error(error)
+			})
 	}, []);
 
 	return (
