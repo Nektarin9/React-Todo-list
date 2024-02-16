@@ -1,31 +1,118 @@
-.app {
+.container_tasks {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 20px;
 	max-width: 100%;
-	padding: 50px;
+	padding: 0 50px 0 50px;
 	margin: 50px auto;
 }
 
-.task {
+.bnt_container {
+	margin: 50px 0 50px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
-	padding: 10px;
-	border-radius: 5px;
-	max-width: 400px;
-	width: 100%;
+	gap: 40px;
+}
+.btn_task {
+	width: 155px;
+	height: 50px;
 	font-size: 24px;
-	color: rgb(223, 220, 220);
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	background-color: rgb(8, 126, 164);
+	color: white;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+.btn_task:hover {
+	transform: 0.3s;
+	transition: 0.3s;
+	background-color: rgb(6, 84, 110);
+}
+
+.btn_task_sort {
+	display: block;
+	margin: auto;
+	width: auto;
+	padding: 5px 10px 5px 10px;
+	height: 50px;
+	font-size: 24px;
+	outline: none;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	background-color: rgb(8, 126, 164);
+	color: white;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+.btn_task_sort:hover {
+	transform: 0.3s;
+	transition: 0.3s;
+	background-color: rgb(6, 84, 110);
+}
+.input_search {
+	display: block;
+	margin: auto;
+	margin-bottom: 100px;
+	width: 250px;
+	height: 20px;
+	font-size: 24px;
+	padding: 15px;
+	border-radius: 25px;
+	outline: none;
+	border: 2px solid #434954;
+	color: white;
 	background-color: #1b1e23;
+	transform: 0.3s;
+	transition: 0.3s;
 }
 
-.task_completed_true {
-	border: 2px solid rgb(4, 154, 91);
+.input_add {
+	width: 250px;
+	height: 20px;
+	font-size: 24px;
+	padding: 15px;
+	border-radius: 25px;
+	outline: none;
+	border: 2px solid #434954;
+	color: white;
+	background-color: #1b1e23;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+.input_add_error {
+	border: 2px solid rgb(215, 82, 34);
+	transform: 0.3s;
+	transition: 0.3s;
+}
+.input_add_error:focus {
+	border: 2px solid rgb(215, 82, 34);
 }
 
-.task_completed_false {
-	border: 2px solid rgb(215, 146, 34);
+input:focus {
+	transform: 0.3s;
+	transition: 0.3s;
+	border: 2px solid rgb(34, 196, 1);
+}
+.input_add:hover {
+	transform: 0.3s;
+	transition: 0.3s;
+	background-color: #1b1e23b3;
+}
+.conitener_search {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 42px;
 }

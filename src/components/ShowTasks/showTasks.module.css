@@ -1,0 +1,31 @@
+
+
+.task {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	max-width: 400px;
+	width: 100%;
+	font-size: 24px;
+	color: rgb(223, 220, 220);
+	background-color: #1b1e23;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+.task:hover {
+	background-color: #364053;
+	transform: 0.3s;
+	transition: 0.3s;
+}
+
+.task_completed_true {
+	border: 2px solid rgb(4, 154, 91);
+}
+
+.task_completed_false {
+	border: 2px solid rgb(215, 82, 34);
+}
