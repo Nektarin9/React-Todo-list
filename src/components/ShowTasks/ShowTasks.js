@@ -26,7 +26,10 @@ export function ShowTasks({ str, tasks, stateBtnSort }) {
 		}
 	} else {
 		for (let i = 0; i < tasks.length; i++) {
-			if (str.toLowerCase() === tasks[i].title.slice(0, str.length).toLowerCase()) {
+			if (
+				str.toLowerCase() === tasks[i].title.slice(0, str.length).toLowerCase() ||
+				tasks[i].title.toLowerCase().includes(str.toLowerCase())
+			) {
 				array.push(tasks[i]);
 			}
 		}
