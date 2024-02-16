@@ -51,7 +51,7 @@ export function ModalWindow({ setModal, obj_target, refreshTasks, setRefreshTask
 							)
 						}
 					>
-						Выполнена
+						Выполнено
 					</button>
 					<button
 						className={style.btn_task_completed_false}
@@ -66,7 +66,7 @@ export function ModalWindow({ setModal, obj_target, refreshTasks, setRefreshTask
 							)
 						}
 					>
-						Не выполнена
+						Не выполнено
 					</button>
 
 					<button

@@ -50,7 +50,6 @@ export function App() {
 	function selectTask(event) {
 		const { target } = event;
 		if (target.closest('div') && target.tagName !== 'SECTION') {
-			console.log(target);
 			setModal(true);
 			obj_target = target;
 		} else {
